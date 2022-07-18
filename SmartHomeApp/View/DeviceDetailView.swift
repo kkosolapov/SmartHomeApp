@@ -29,17 +29,7 @@ class DeviceDetailView: UIView {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
-    
-    let deleteButton: UIButton = {
-        let button = UIButton()
-        button.setTitle(L10n.delete, for: .normal)
-        button.layer.cornerRadius = 10
-        button.layer.backgroundColor = UIColor.red.cgColor
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(onClickDelete), for: .touchUpInside)
-        return button
-    }()
-    
+     
     let switchButton: UISwitch = {
         let switchButton = UISwitch()
         switchButton.translatesAutoresizingMaskIntoConstraints = false
@@ -108,13 +98,6 @@ class DeviceDetailView: UIView {
         verticalSlider.center = center
     }
     
-    private func setupDeletebutton() {
-        addSubview(deleteButton)
-        deleteButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -8).isActive = true
-        deleteButton.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-        deleteButton.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        deleteButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
-    }
     
     private func setupSwitchButton() {
         addSubview(switchButton)
@@ -153,9 +136,6 @@ class DeviceDetailView: UIView {
         delegate?.onTapArrowDown()
     }
 
-    @objc func onClickDelete() {
-        delegate?.onClickDelete()
-    }
     
     @objc func onClickSwitch() {
         delegate?.onClickSwitch(isOn: switchButton.isOn)
