@@ -14,7 +14,7 @@
 		ED5ED0D126AF0153009923B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5ED0D026AF0153009923B4 /* HomeViewController.swift */; };
 		ED5ED0D626AF0155009923B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5ED0D526AF0155009923B4 /* Assets.xcassets */; };
 		ED5ED0D926AF0155009923B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5ED0D726AF0155009923B4 /* LaunchScreen.storyboard */; };
-		ED5ED0EF26AF0155009923B4 /* ModuloTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5ED0EE26AF0155009923B4 /* ModuloTechUITests.swift */; };
+		ED5ED0EF26AF0155009923B4 /* SmartHomeAppUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5ED0EE26AF0155009923B4 /* SmartHomeAppUnitTests.swift */; };
 		EDA1B0F926B1DD5A0096A275 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1B0F826B1DD5A0096A275 /* DevicesViewController.swift */; };
 		EDA1B0FF26B1E5BF0096A275 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDA1B0FD26B1E5BF0096A275 /* Localizable.strings */; };
 		EDA1B10226B1E6D00096A275 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1B10126B1E6D00096A275 /* Strings+Generated.swift */; };
@@ -40,14 +40,14 @@
 			containerPortal = ED5ED0C126AF0153009923B4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED5ED0C826AF0153009923B4;
-			remoteInfo = ModuloTech;
+			remoteInfo = SmartHomeApp;
 		};
 		ED5ED0EB26AF0155009923B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ED5ED0C126AF0153009923B4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED5ED0C826AF0153009923B4;
-			remoteInfo = ModuloTech;
+			remoteInfo = SmartHomeApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,16 +55,16 @@
 		ED09966726B29A5A000A101F /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
 		ED15187626B67D9C002C831E /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		ED470BEB26B7F65F006CE73D /* LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTests.swift; sourceTree = "<group>"; };
-		ED5ED0C926AF0153009923B4 /* ModuloTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuloTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5ED0C926AF0153009923B4 /* SmartHomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5ED0CC26AF0153009923B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5ED0D026AF0153009923B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ED5ED0D526AF0155009923B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5ED0D826AF0155009923B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5ED0DA26AF0155009923B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED5ED0DF26AF0155009923B4 /* ModuloTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5ED0DF26AF0155009923B4 /* SmartHomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5ED0E526AF0155009923B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED5ED0EA26AF0155009923B4 /* ModuloTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5ED0EE26AF0155009923B4 /* ModuloTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloTechUITests.swift; sourceTree = "<group>"; };
+		ED5ED0EA26AF0155009923B4 /* SmartHomeAppUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeAppUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5ED0EE26AF0155009923B4 /* SmartHomeAppUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeAppUnitTests.swift; sourceTree = "<group>"; };
 		ED5ED0F026AF0155009923B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA1B0F826B1DD5A0096A275 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
 		EDA1B0FE26B1E5BF0096A275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		ED5ED0C026AF0153009923B4 = {
 			isa = PBXGroup;
 			children = (
-				ED5ED0CB26AF0153009923B4 /* ModuloTech */,
-				ED5ED0E226AF0155009923B4 /* ModuloTechTests */,
-				ED5ED0ED26AF0155009923B4 /* ModuloTechUITests */,
+				ED5ED0CB26AF0153009923B4 /* SmartHomeApp */,
+				ED5ED0E226AF0155009923B4 /* SmartHomeAppTests */,
+				ED5ED0ED26AF0155009923B4 /* SmartHomeAppUnitTests */,
 				ED5ED0CA26AF0153009923B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,14 +124,14 @@
 		ED5ED0CA26AF0153009923B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED5ED0C926AF0153009923B4 /* ModuloTech.app */,
-				ED5ED0DF26AF0155009923B4 /* ModuloTechTests.xctest */,
-				ED5ED0EA26AF0155009923B4 /* ModuloTechUITests.xctest */,
+				ED5ED0C926AF0153009923B4 /* SmartHomeApp.app */,
+				ED5ED0DF26AF0155009923B4 /* SmartHomeAppTests.xctest */,
+				ED5ED0EA26AF0155009923B4 /* SmartHomeAppUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED5ED0CB26AF0153009923B4 /* ModuloTech */ = {
+		ED5ED0CB26AF0153009923B4 /* SmartHomeApp */ = {
 			isa = PBXGroup;
 			children = (
 				EDE89A5E26B17B1D00806AF9 /* UserDatabase.swift */,
@@ -146,25 +146,25 @@
 				ED5ED0D726AF0155009923B4 /* LaunchScreen.storyboard */,
 				ED5ED0DA26AF0155009923B4 /* Info.plist */,
 			);
-			path = ModuloTech;
+			path = SmartHomeApp;
 			sourceTree = "<group>";
 		};
-		ED5ED0E226AF0155009923B4 /* ModuloTechTests */ = {
+		ED5ED0E226AF0155009923B4 /* SmartHomeAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				ED5ED0E526AF0155009923B4 /* Info.plist */,
 				ED470BEB26B7F65F006CE73D /* LightTests.swift */,
 			);
-			path = ModuloTechTests;
+			path = SmartHomeAppTests;
 			sourceTree = "<group>";
 		};
-		ED5ED0ED26AF0155009923B4 /* ModuloTechUITests */ = {
+		ED5ED0ED26AF0155009923B4 /* SmartHomeAppUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED5ED0EE26AF0155009923B4 /* ModuloTechUITests.swift */,
+				ED5ED0EE26AF0155009923B4 /* SmartHomeAppUnitTests.swift */,
 				ED5ED0F026AF0155009923B4 /* Info.plist */,
 			);
-			path = ModuloTechUITests;
+			path = SmartHomeAppUnitTests;
 			sourceTree = "<group>";
 		};
 		EDB782DA26AF01E300B89E03 /* Entity */ = {
@@ -246,9 +246,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED5ED0C826AF0153009923B4 /* ModuloTech */ = {
+		ED5ED0C826AF0153009923B4 /* SmartHomeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED5ED0F326AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTech" */;
+			buildConfigurationList = ED5ED0F326AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeApp" */;
 			buildPhases = (
 				ED5ED0C526AF0153009923B4 /* Sources */,
 				ED5ED0C626AF0153009923B4 /* Frameworks */,
@@ -258,17 +258,17 @@
 			);
 			dependencies = (
 			);
-			name = ModuloTech;
+			name = SmartHomeApp;
 			packageProductDependencies = (
 				EDE89A6126B17CC700806AF9 /* SQLite */,
 			);
-			productName = ModuloTech;
-			productReference = ED5ED0C926AF0153009923B4 /* ModuloTech.app */;
+			productName = SmartHomeApp;
+			productReference = ED5ED0C926AF0153009923B4 /* SmartHomeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED5ED0DE26AF0155009923B4 /* ModuloTechTests */ = {
+		ED5ED0DE26AF0155009923B4 /* SmartHomeAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED5ED0F626AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTechTests" */;
+			buildConfigurationList = ED5ED0F626AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeAppTests" */;
 			buildPhases = (
 				ED5ED0DB26AF0155009923B4 /* Sources */,
 				ED5ED0DC26AF0155009923B4 /* Frameworks */,
@@ -279,14 +279,14 @@
 			dependencies = (
 				ED5ED0E126AF0155009923B4 /* PBXTargetDependency */,
 			);
-			name = ModuloTechTests;
-			productName = ModuloTechTests;
-			productReference = ED5ED0DF26AF0155009923B4 /* ModuloTechTests.xctest */;
+			name = SmartHomeAppTests;
+			productName = SmartHomeAppTests;
+			productReference = ED5ED0DF26AF0155009923B4 /* SmartHomeAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED5ED0E926AF0155009923B4 /* ModuloTechUITests */ = {
+		ED5ED0E926AF0155009923B4 /* SmartHomeAppUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED5ED0F926AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTechUITests" */;
+			buildConfigurationList = ED5ED0F926AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeAppUnitTests" */;
 			buildPhases = (
 				ED5ED0E626AF0155009923B4 /* Sources */,
 				ED5ED0E726AF0155009923B4 /* Frameworks */,
@@ -297,9 +297,9 @@
 			dependencies = (
 				ED5ED0EC26AF0155009923B4 /* PBXTargetDependency */,
 			);
-			name = ModuloTechUITests;
-			productName = ModuloTechUITests;
-			productReference = ED5ED0EA26AF0155009923B4 /* ModuloTechUITests.xctest */;
+			name = SmartHomeAppUnitTests;
+			productName = SmartHomeAppUnitTests;
+			productReference = ED5ED0EA26AF0155009923B4 /* SmartHomeAppUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED5ED0C426AF0153009923B4 /* Build configuration list for PBXProject "ModuloTech" */;
+			buildConfigurationList = ED5ED0C426AF0153009923B4 /* Build configuration list for PBXProject "SmartHomeApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -341,9 +341,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED5ED0C826AF0153009923B4 /* ModuloTech */,
-				ED5ED0DE26AF0155009923B4 /* ModuloTechTests */,
-				ED5ED0E926AF0155009923B4 /* ModuloTechUITests */,
+				ED5ED0C826AF0153009923B4 /* SmartHomeApp */,
+				ED5ED0DE26AF0155009923B4 /* SmartHomeAppTests */,
+				ED5ED0E926AF0155009923B4 /* SmartHomeAppUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,7 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5ED0EF26AF0155009923B4 /* ModuloTechUITests.swift in Sources */,
+				ED5ED0EF26AF0155009923B4 /* SmartHomeAppUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +423,12 @@
 /* Begin PBXTargetDependency section */
 		ED5ED0E126AF0155009923B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED5ED0C826AF0153009923B4 /* ModuloTech */;
+			target = ED5ED0C826AF0153009923B4 /* SmartHomeApp */;
 			targetProxy = ED5ED0E026AF0155009923B4 /* PBXContainerItemProxy */;
 		};
 		ED5ED0EC26AF0155009923B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED5ED0C826AF0153009923B4 /* ModuloTech */;
+			target = ED5ED0C826AF0153009923B4 /* SmartHomeApp */;
 			targetProxy = ED5ED0EB26AF0155009923B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -578,12 +578,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTech/Info.plist;
+				INFOPLIST_FILE = SmartHomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTech;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -596,12 +596,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTech/Info.plist;
+				INFOPLIST_FILE = SmartHomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTech;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -615,18 +615,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTechTests/Info.plist;
+				INFOPLIST_FILE = SmartHomeAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTechTests;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuloTech.app/ModuloTech";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeApp.app/SmartHomeApp";
 			};
 			name = Debug;
 		};
@@ -637,18 +637,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTechTests/Info.plist;
+				INFOPLIST_FILE = SmartHomeAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTechTests;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuloTech.app/ModuloTech";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeApp.app/SmartHomeApp";
 			};
 			name = Release;
 		};
@@ -658,17 +658,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTechUITests/Info.plist;
+				INFOPLIST_FILE = SmartHomeAppUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTechUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeAppUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ModuloTech;
+				TEST_TARGET_NAME = SmartHomeApp;
 			};
 			name = Debug;
 		};
@@ -678,24 +678,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87663B9S89;
-				INFOPLIST_FILE = ModuloTechUITests/Info.plist;
+				INFOPLIST_FILE = SmartHomeAppUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.ModuloTechUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.SmartHomeAppUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ModuloTech;
+				TEST_TARGET_NAME = SmartHomeApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED5ED0C426AF0153009923B4 /* Build configuration list for PBXProject "ModuloTech" */ = {
+		ED5ED0C426AF0153009923B4 /* Build configuration list for PBXProject "SmartHomeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED5ED0F126AF0155009923B4 /* Debug */,
@@ -704,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED5ED0F326AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTech" */ = {
+		ED5ED0F326AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED5ED0F426AF0155009923B4 /* Debug */,
@@ -713,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED5ED0F626AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTechTests" */ = {
+		ED5ED0F626AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED5ED0F726AF0155009923B4 /* Debug */,
@@ -722,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED5ED0F926AF0155009923B4 /* Build configuration list for PBXNativeTarget "ModuloTechUITests" */ = {
+		ED5ED0F926AF0155009923B4 /* Build configuration list for PBXNativeTarget "SmartHomeAppUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED5ED0FA26AF0155009923B4 /* Debug */,
