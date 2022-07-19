@@ -59,7 +59,6 @@ class DeviceDetailView: UIView {
         }
         setupNameLabel()
         setupValueLabel()
-        setupDeletebutton()
     }
     
     required init?(coder: NSCoder) {
