@@ -100,7 +100,6 @@ class DeviceDetailView: UIView {
     
     private func setupSwitchButton() {
         addSubview(switchButton)
-        switchButton.addTarget(self, action: #selector(onClickSwitch), for: .touchUpInside)
         switchButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -8).isActive = true
         switchButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8).isActive = true
     }
@@ -135,10 +134,6 @@ class DeviceDetailView: UIView {
         delegate?.onTapArrowDown()
     }
 
-    
-    @objc func onClickSwitch() {
-        delegate?.onClickSwitch(isOn: switchButton.isOn)
-    }
     
     func setNameText(text: String?) {
         nameLabel.text = text
