@@ -3,7 +3,6 @@ import UIKit
 protocol DeviceDetailDelegate {
 
     func onValueChanged(value: Float)
-    func onClickSwitch(isOn: Bool)
     func onTapArrowUp()
     func onTapArrowDown()
 }
@@ -47,12 +46,6 @@ extension DeviceDetailViewController: DeviceDetailDelegate {
     func onValueChanged(value: Float) {
         viewModel.onValueChanged(value: value)
         (view as? DeviceDetailView)?.setColorViewHeight(height: viewModel.getColorViewHeight(with: view.frame.height))
-        (view as? DeviceDetailView)?.setValueText(text: viewModel.valueText)
-    }
-
-    func onClickSwitch(isOn: Bool) {
-        viewModel.onClickSwitch(isOn: isOn)
-        (view as? DeviceDetailView)?.setColorViewHidden(isHidden: viewModel.isHidden)
         (view as? DeviceDetailView)?.setValueText(text: viewModel.valueText)
     }
 
