@@ -56,14 +56,7 @@ class DeviceDetailViewModel {
         valueText = "\(Int(self.value))% \(isOn ? L10n.on : L10n.off)"
         updateDeviceValue()
     }
-    
-    func onClickSwitch(isOn: Bool) {
-        self.isOn = isOn
-        isHidden = !isOn
-        valueText = "\(Int(value))\(productType == "Light" ? "%" : "°") \(isOn ? L10n.on : L10n.off)"
-        updateDeviceMode()
-    }
-
+   
     func onTapArrowUp() {
         value += 5
         if value >= 28 {
